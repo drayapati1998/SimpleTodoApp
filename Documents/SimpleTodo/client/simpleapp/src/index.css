@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+.app-container {
+  width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+input {
+  width: 75%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.9;
+}
+.add-btn {
+  background-color: #1f2937;
+  color: white;
+}
+.delete-btn {
+  background-color: #e5e7eb;
+}
+.edit-btn {
+  background-color: #e5e7eb;
+}
+.todo-item {
+  background-color: #d1d5db;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
